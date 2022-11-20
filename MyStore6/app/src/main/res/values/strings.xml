@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Store</string>
+    <string name="name_email">Name/Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="register">register</string>
+    <string name="already_registered">Already Registered</string>
+    <string name="login">Login</string>
+    <string name="not_register">Not Register?</string>
+    <string name="about">I am Promit Biswas. I am a student of Department of Electrical and Computer Engineering, RUET. I have made this app to manage a store, to show how a store sells and do many more things. Thank You.</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+</resources>

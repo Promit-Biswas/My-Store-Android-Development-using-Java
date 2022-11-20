@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.promit.mystore.MainActivity"
+android:orientation="vertical"
+android:id="@+id/container"
+android:background="@drawable/back"
+android:gravity="center_horizontal">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"
+    android:layout_marginTop="50dp"
+    app:srcCompat="@drawable/mystore"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="200.0dip"
+        android:layout_height="60.0dip"
+        android:layout_marginTop="10dp"
+        android:background="#64F60A"
+        android:text="@string/update"
+        android:textColor="#ffffff" />
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="200.0dip"
+        android:layout_height="60.0dip"
+        android:layout_marginTop="20dp"
+        android:background="#F40B1F"
+        android:text="@string/delete"
+        android:textColor="#ffffff" />
+</LinearLayout>
+</LinearLayout>

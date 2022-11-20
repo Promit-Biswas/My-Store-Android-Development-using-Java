@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context="com.promit.mystore.HomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="488dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mystore" />
+
+    <Button
+        android:id="@+id/btnabout"
+        android:layout_width="200.0dip"
+        android:layout_height="60.0dip"
+        android:layout_marginStart="106dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginRight="106dp"
+        android:layout_marginBottom="147dp"
+        android:text="About "
+        android:background="#F40B1F"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnshpinfo" />
+
+    <Button
+        android:id="@+id/btnsell"
+        android:layout_width="200.0dip"
+        android:layout_height="60.0dip"
+        android:layout_marginStart="106dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginRight="106dp"
+        android:text="Sell Info"
+        android:background="#F60A0A"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/btnshpinfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnadd" />
+
+    <Button
+        android:id="@+id/btnshpinfo"
+        android:layout_width="200.0dip"
+        android:layout_height="60.0dip"
+        android:layout_marginStart="106dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginRight="106dp"
+        android:text="Shop Info"
+        android:background="#04ea00"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/btnabout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnsell" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="200.0dip"
+        android:layout_height="60.0dip"
+        android:layout_marginStart="106dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginRight="106dp"
+        android:text="Add Item"
+        android:background="#04ea00"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/btnsell"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

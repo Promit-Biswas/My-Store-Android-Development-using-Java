@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back"
+    android:layout_height="match_parent"
+    tools:context=".addingitem">
+    <EditText
+        android:id="@+id/item"
+        android:layout_width="213dp"
+        android:layout_height="45dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:hint="Item"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/Rate"
+        android:layout_width="213dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Rate"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/qunatity"
+        android:layout_width="213dp"
+        android:layout_height="45dp"
+        android:background="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Quantity"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btnadditem"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="162dp"
+        android:background="#673AB7"
+        android:textColor="#ffffff"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="184dp"
+        android:text="add" />
+</LinearLayout>
